@@ -1,5 +1,23 @@
 site_name: My Doc
 nav:
-  - Home: index.md
   - About: about.md
-theme: readthedocs
+  - Home: index.md
+
+#site_url: https://ppv.org/portfolio
+repo_url: https://github.com/platonpotemkin51-source/
+edit_uri: edit/main/docs/
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - content.action.edit
+  language: ru
+  palette:
+    scheme: default
+    primary: grey
+    accent: light blue
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil-box
+    view: material/eye
