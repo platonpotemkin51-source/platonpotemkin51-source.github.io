@@ -1,17 +1,61 @@
-# Welcome to MkDocs
+# Портфолио лабораторных работ
 
-For full аааааааааааа documentation visit [mkdocs.org](https://www.mkdocs.org).
+Данный сайт является портфолио 
 
-## Commands
+Тут будут появляться мои лабораторные работы и проекты
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+---
 
-## Project layout
+### 🛠 Текущий прогресс
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+#### Лабораторная работа №1
+
+!!! success "Развертывание статического сайта"
+
+    **Тема:** Создание и развертывание сайта на базе MkDocs с публикацией на GitHub Pages.
+    
+    **📝 Описание:**
+    В ходе работы был изучен генератор статических сайтов MkDocs. Настроено виртуальное окружение Python, изучена структура `mkdocs.yml`. Сайт успешно развернут на GitHub Pages с использованием автоматической сборки.
+    
+    **Стек:** `MkDocs`, `Python`, `Git`, `GitHub Pages`
+
+    <div style="margin-top: 10px;">
+      <a href="labs/lab1/" class="md-button md-button--primary">📖 Читать отчет</a>
+      <a href="https://github.com/ВашНик/ВашРепозиторий" class="md-button"> Репозиторий</a>
+    </div>
+
+<br>
+
+#### Лабораторная работа №2
+
+!!! info "Название лабораторной работа №3"
+
+    **Тема:** (Здесь будет тема второй лабораторной).
+    
+    **📝 Описание:**
+    *Заглушка.* Описание задачи, целей и инструментов, которые будут использоваться при выполнении работы.
+    
+    **Стек:** `Python`, `TEST`
+
+    <div style="margin-top: 10px;">
+      <a href="labs/lab2/" class="md-button md-button--primary">📖 Читать отчет</a>
+      <a href="#" class="md-button"> Репозиторий</a>
+    </div>
+
+<br>
+
+#### Лабораторная работа №3
+
+!!! abstract "Название лабораторной работа №3"
+
+    **Тема:** (Здесь будет тема третьей лабораторной).
+    
+    **📝 Описание:**
+    *Заглушка.* Описание задачи, целей и инструментов, которые будут использоваться при выполнении работы.
+    
+    **Стек:** `Python`, `TEST`
+
+    <div style="margin-top: 10px;">
+      <a href="#" class="md-button md-button--primary"> Скоро будет</a>
+      <a href="#" class="md-button"> Репозиторий</a>
+    </div>

@@ -1,7 +1,11 @@
-site_name: My Doc
+site_name: Портфолио - Потёмкин Платон
 nav:
-  - About: about.md
-  - Home: index.md
+  - Главная: index.md
+  - Об авторе: about.md
+  - Лабораторные работы:
+      - Лабораторная 1: labs/lab1.md
+      - Лабораторная 2: labs/lab2.md
+      - Лабораторная 3: labs/lab3.md
 
 #site_url: https://ppv.org/portfolio
 repo_url: https://github.com/platonpotemkin51-source/
@@ -21,3 +25,11 @@ theme:
     repo: fontawesome/brands/github
     edit: material/pencil-box
     view: material/eye
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
