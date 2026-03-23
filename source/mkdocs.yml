@@ -33,9 +33,3 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-
-plugins:
-  - search
-  - git-revision-date-localized:
-      type: datetime
-      locale: ru
