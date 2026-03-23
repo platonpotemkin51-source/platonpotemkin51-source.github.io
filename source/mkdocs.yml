@@ -9,7 +9,7 @@ nav:
 
 #site_url: https://ppv.org/portfolio
 repo_url: https://github.com/platonpotemkin51-source/
-edit_uri: edit/main/docs/
+edit_uri: source/docs/
 theme:
   name: material
   features:
