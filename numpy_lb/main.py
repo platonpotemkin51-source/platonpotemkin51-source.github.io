@@ -16,8 +16,8 @@ def create_vector():
     Returns:
         numpy.ndarray: Массив чисел от 0 до 9 включительно
     """
-    # Подсказка: используйте np.arange(10)
-    return np.ones(9)
+    result = np.arange(10)
+    return result
 
 
 def create_matrix():
@@ -189,6 +189,7 @@ def solve_linear_system(a, b):
         numpy.ndarray: Решение системы x
     """
     result = np.linalg.solve(a, b)
+    return result
 
 
 # ============================================================
@@ -294,9 +295,13 @@ def plot_heatmap(matrix):
     Args:
         matrix (numpy.ndarray): Матрица корреляции
     """
-    # Подсказка: используйте sns.heatmap(), добавьте заголовок, сохраните
-    pass
+    plt.figure(figsize=(10, 8))
+    sns.heatmap(matrix, annot=True, cmap='coolwarm', center=0,
+                fmt='.2f', square=True, linewidths=1)
 
+    plt.title('Матрица корреляции предметов', fontsize=14)
+
+    plt.savefig('plots/heatmap.png', dpi=300, bbox_inches='tight')
 
 def plot_line(x, y):
     """
@@ -309,7 +314,16 @@ def plot_line(x, y):
         x (numpy.ndarray): Номера студентов
         y (numpy.ndarray): Оценки студентов
     """
-    # Подсказка: используйте plt.plot(), добавьте заголовок, подписи осей,
-    # сохраните график
-    pass
+    plt.figure(figsize=(12, 6))
+    plt.plot(x, y, marker='o', linestyle='-', linewidth=2, markersize=6)
+    plt.title('Оценки студентов по математике', fontsize=14)
 
+    plt.xlabel('Номер студента', fontsize=12)
+    plt.ylabel('Оценка', fontsize=12)
+
+    plt.grid(True, alpha=0.3)
+
+    plt.savefig('plots/line_plot.png', dpi=300, bbox_inches='tight')
+
+if __name__ == "__main__":
+    print("Запустите python3 -m pytest test.py -v для проверки лабораторной работы.")

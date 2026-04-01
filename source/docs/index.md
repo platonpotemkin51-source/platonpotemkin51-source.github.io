@@ -21,25 +21,26 @@
 
     <div style="margin-top: 10px;">
       <a href="labs/lab1/" class="md-button md-button--primary">📖 Читать отчет</a>
-      <a href="https://github.com/ВашНик/ВашРепозиторий" class="md-button"> Репозиторий</a>
+      <a href="https://github.com/platonpotemkin51-source/platonpotemkin51-source.github.io" class="md-button"> Репозиторий</a>
     </div>
 
 <br>
 
 #### Лабораторная работа №2
 
-!!! info "Название лабораторной работа №3"
+!!! info "Знакомство и работа с NumPy"
 
-    **Тема:** (Здесь будет тема второй лабораторной).
+    **Тема:** Численные вычисления и анализ данных с использованием NumPy.
     
     **📝 Описание:**
+    В ходе выполнения лабораторной работы были успешно реализованы все необходимые функции для работы с NumPy, Pandas, Matplotlib и Seaborn
     *Заглушка.* Описание задачи, целей и инструментов, которые будут использоваться при выполнении работы.
     
-    **Стек:** `Python`, `TEST`
+    **Стек:** `Python`, `NumPy`, `Pandas`, `Matplotlib`, `Seaborn`
 
     <div style="margin-top: 10px;">
       <a href="labs/lab2/" class="md-button md-button--primary">📖 Читать отчет</a>
-      <a href="#" class="md-button"> Репозиторий</a>
+      <a href="https://github.com/platonpotemkin51-source/platonpotemkin51-source.github.io/tree/main/numpy_lb" class="md-button"> Репозиторий</a>
     </div>
 
 <br>
