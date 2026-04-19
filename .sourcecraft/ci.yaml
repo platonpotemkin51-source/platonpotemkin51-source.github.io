@@ -22,7 +22,7 @@ workflows:
               - "if [ -f requirements.txt ]; then pip install -r requirements.txt; fi"
 
               # 2. Сборка сайта
-              - cd ./src && mkdocs build -d ../docs
+              - cd ./source && mkdocs build -d ../docs
               - echo "Сайт собран в папке ../docs"
               - cd .. # Возвращаемся в корень
 
