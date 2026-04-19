@@ -58,7 +58,7 @@
     <div style="margin-top: 10px;">
       <a href="labs/lab3/" class="md-button md-button--primary">📖 Читать отчет</a>
       <a href="https://github.com/platonpotemkin51-source/platonpotemkin51-source.github.io" class="md-button"> GitHub</a>
-      <a href=https://sourcecraft.dev/spbsvu3skype2/portfolio"> Sourcecraft</a>
+      <a href="https://sourcecraft.dev/spbsvu3skype2/portfolio" class="md-button"> Sourcecraft</a>
     </div>
 
 #### Лабораторная работа № (TEMPLATE)
