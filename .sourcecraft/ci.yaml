@@ -1,0 +1,39 @@
+on:
+  push:
+    workflows: build-site
+    filter:
+      branches: main
+
+workflows:
+  build-site:
+    tasks:
+      - name: build-and-publish-site
+        cubes:
+          - name: build-and-deploy
+            image: docker.io/library/python:3.13-slim
+            env:
+              SC_TOKEN: ${{ secrets.SC_TOKEN }}
+              SC_USER: "spbsvu3skype2"
+              SC_REPO: "portfolio"
+            script:
+              # 1. Установка зависимостей (включая git)
+              - apt-get update && apt-get install -y git
+              - python -m pip install --upgrade pip
+              - "if [ -f requirements.txt ]; then pip install -r requirements.txt; fi"
+
+              # 2. Сборка сайта
+              - cd ./src && mkdocs build -d ../docs
+              - echo "Сайт собран в папке ../docs"
+              - cd .. # Возвращаемся в корень
+
+              # 3. Настройка Git для коммита
+              - git config --global user.name "SourceCraft CI"
+              - git config --global user.email "ci@sourcecraft.dev"
+              - git remote set-url origin https://${SC_USER}:${SC_TOKEN}@git.sourcecraft.dev/${SC_USER}/${SC_REPO}.git
+
+              # 4. Переход в ветку release и пуш
+              - git checkout -B release  # -B создаст ветку или переключится на нее, если она есть
+              - git add ./docs
+
+              # Проверяем, есть ли изменения. Если есть - коммитим и пушим.
+              - "git diff-index --quiet HEAD || (git commit -m \"feat: автоматическое обновление сайта\" && git push origin release -f)"
