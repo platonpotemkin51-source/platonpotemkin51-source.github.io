@@ -6,6 +6,10 @@ nav:
       - Лабораторная 1: labs/lab1.md
       - Лабораторная 2: labs/lab2.md
       - Лабораторная 3: labs/lab3.md
+      - Лабораторная 4: labs/lab4.md
+      - Лабораторная 5: labs/lab5.md
+      - Лабораторная 6: labs/lab6.md
+      - Лабораторная 7: labs/lab7.md
 
 #site_url: https://ppv.org/portfolio
 repo_url: https://github.com/platonpotemkin51-source/platonpotemkin51-source.github.io
