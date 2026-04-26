@@ -1,8 +1,6 @@
-https://colab.research.google.com/drive/1JrxzKwnqbDMh4jMTbL_V3gDTzhqcvUxZ?usp=sharing
-
----
-
 # Отчет по лабораторной работе: Классификация с применением Scikit-Learn
+
+[https://colab.research.google.com/drive/1JrxzKwnqbDMh4jMTbL_V3gDTzhqcvUxZ?usp=sharing](https://colab.research.google.com/drive/1JrxzKwnqbDMh4jMTbL_V3gDTzhqcvUxZ?usp=sharing)
 
 ## 1. Заполнение пропусков и базовая классификация
 В ходе работы был скопирован и заполнен базовый борд `s2p1-predict-credit-default-tasks`.
