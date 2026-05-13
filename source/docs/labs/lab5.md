@@ -1,6 +1,6 @@
 # Отчет по проекту: «Предсказание цен на недвижимость»
 
-https://drive.google.com/file/d/1kihJn3aL9FOzEX-llcChrjFvmNCRN_OZ/view?usp=sharing
+[https://drive.google.com/file/d/1kihJn3aL9FOzEX-llcChrjFvmNCRN_OZ/view?usp=sharing](https://drive.google.com/file/d/1kihJn3aL9FOzEX-llcChrjFvmNCRN_OZ/view?usp=sharing)
 
 **Цель проекта:** Прогнозирование стоимости домов в округе Кинг (штат Вашингтон, США) на основе исторических данных о продажах с использованием алгоритмов машинного обучения.
 
