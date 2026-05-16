@@ -1,6 +1,6 @@
 # Отчет по лабораторной работе: «Инструменты для работы с языком (NLP)»
 
-https://colab.research.google.com/drive/17vqmHnguVsb8Y2dGS-XpczwRuVX3QDIH?usp=sharing
+[https://colab.research.google.com/drive/17vqmHnguVsb8Y2dGS-XpczwRuVX3QDIH?usp=sharing](https://colab.research.google.com/drive/17vqmHnguVsb8Y2dGS-XpczwRuVX3QDIH?usp=sharing)
 
 **Цель работы:** Изучение базовых методов обработки естественного языка (NLP) и построение модели машинного обучения для классификации текстов (твитов) по тональности (позитивная или негативная).
 
