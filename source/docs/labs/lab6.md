@@ -1,7 +1,6 @@
 # Отчет об аналитике и обработке данных
 
 **Тема:** Предобработка и первичный анализ данных (на примере датасета Titanic)
-**Выполнил:** Потёмкин Платон Васильевич, группа P3124
 
 [https://drive.google.com/file/d/1k13EBk44Z-wJFe5X3bxCVWxheREhCK3u/view?usp=sharing](https://drive.google.com/file/d/1k13EBk44Z-wJFe5X3bxCVWxheREhCK3u/view?usp=sharing)
 

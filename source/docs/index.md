@@ -111,28 +111,29 @@
     **Стек:** `Python`, `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `Jupyter Notebook`, `EDA`
 
     <div style="margin-top: 10px;">
-      <a href="labs/lab6/" class="md-button md-button--primary"> Скоро будет</a>
-      <a href="https://drive.google.com/file/d/1k13EBk44Z-wJFe5X3bxCVWxheREhCK3u/view?usp=sharing" class="md-button"> Репозиторий</a>
+      <a href="labs/lab6/" class="md-button md-button--primary">📖 Читать отчет</a>
+      <a href="https://drive.google.com/file/d/1k13EBk44Z-wJFe5X3bxCVWxheREhCK3u/view?usp=sharing" class="md-button"> Jupyter</a>
     </div>
 
 <br>
 
 #### Лабораторная работа №7
 
-!!! abstract "Название лабораторной работа №"
+!!! success "Лабораторная работа: Инструменты для работы с языком"
 
-    **Тема:** (Здесь будет тема третьей лабораторной).
+    **Тема:** Векторизация текстов, предобработка естественного языка (NLP) и анализ тональности.
     
     **📝 Описание:**
-    *Заглушка.* Описание задачи, целей и инструментов, которые будут использоваться при выполнении работы.
+    Работа посвящена изучению базовых методов обработки текстов на естественном языке. Основная задача заключается в построении модели машинного обучения для классификации русскоязычных твитов по их эмоциональной окраске (позитивные или негативные). В ходе выполнения исследуются подходы к очистке данных (удаление стоп-слов, токенизация с помощью NLTK, анализ влияния пунктуации), приведению слов к начальной форме (лемматизация через Pymorphy3) и извлечению признаков (модели «мешка слов» CountVectorizer и TF-IDF на базе различных n-грамм). Для решения задачи классификации применяются и сравниваются алгоритмы Logistic Regression, Multinomial Naive Bayes и XGBClassifier.
     
-    **Стек:** `Python`, `TEST`
+    **Стек:** `Python`, `Pandas`, `Scikit-learn`, `NLTK`, `Pymorphy3`, `XGBoost`
 
     <div style="margin-top: 10px;">
-      <a href="labs/lab7/" class="md-button md-button--primary"> Скоро будет</a>
-      <a href="#" class="md-button"> Репозиторий</a>
+      <a href="labs/lab7/" class="md-button md-button--primary">📖 Читать отчет</a>
+      <a href="https://colab.research.google.com/drive/17vqmHnguVsb8Y2dGS-XpczwRuVX3QDIH?usp=sharing" class="md-button"> Jupyter</a>
     </div>
 
+<br>
 
 #### Лабораторная работа № (TEMPLATE)
 
