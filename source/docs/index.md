@@ -8,6 +8,8 @@
 
 ### 🛠 Текущий прогресс
 
+#### TG-bot
+
 !!! success "TG-bot"
 
     **Тема:** Телеграмм бот со статичной информацией и отправкой форм
@@ -20,6 +22,10 @@
     <div style="margin-top: 10px;">
       <a href="projects/TGbot/" class="md-button md-button--primary"> 📖 Читать отчет</a>
     </div>
+
+<br>
+
+#### Daily digest
 
 !!! success "Logistics AI Digest"
 
@@ -43,6 +49,8 @@
 
 <br>
 
+#### Контроль склада
+
 !!! success "WoodFlow"
 
     **Тема:** Разработка комплексных веб-приложений и автоматизация бизнес-логики с использованием фреймворка Flask и SQLAlchemy ORM.
@@ -63,6 +71,7 @@
     <div style="margin-top: 10px;">
       <a href="projects/WoodFlow/" class="md-button md-button--primary"> 📖 Читать отчет</a>
       <a href="https://github.com/platonpotemkin51-source/WoodFlow" class="md-button"> Репозиторий</a>
+    </div>
 
 <br>
 
