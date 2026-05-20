@@ -2,6 +2,8 @@ site_name: Портфолио - Потёмкин Платон
 nav:
   - Главная: index.md
   - Об авторе: about.md
+  - Проекты:
+      - Контроль склада (WoodFlow): projects/Woodflow.md
   - Лабораторные работы:
       - Лабораторная 1: labs/lab1.md
       - Лабораторная 2: labs/lab2.md
