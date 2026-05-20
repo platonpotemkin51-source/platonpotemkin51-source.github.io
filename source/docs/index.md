@@ -8,6 +8,40 @@
 
 ### 🛠 Текущий прогресс
 
+!!! success "TG-bot"
+
+    **Тема:** Телеграмм бот со статичной информацией и отправкой форм
+    
+    **📝 Описание:**
+    В боте реализованно предоставление информации в удобном кликабельном формате, с возможностью отправки формы для получения определенной информации.
+    
+    **Стек:** `Python`, `aiogram`, `Telegram API`, `Requests`
+
+    <div style="margin-top: 10px;">
+      <a href="projects/TGbot/" class="md-button md-button--primary"> 📖 Читать отчет</a>
+    </div>
+
+!!! success "Logistics AI Digest"
+
+    **Тема:** Автоматизация сбора данных, интеграция ИИ-моделей (LLM) и настройка CI/CD пайплайнов для регулярных задач.
+    
+    **📝 Описание:**
+    Разработка полностью автономного сервиса для агрегации, интеллектуальной фильтрации и суммаризации профильных новостей логистики с последующей публикацией готового дайджеста в корпоративный Telegram-чат.
+
+    **Основные задачи:**
+    * Настройка автоматического парсинга RSS-лент с ведущих отраслевых порталов.
+    * Разработка логики ИИ-фильтрации (отсев информационного шума и сортировка по гео-приоритетам).
+    * Генерация лаконичных дайджестов (лимитирование вывода, форматирование в HTML-гиперссылки).
+    * Интеграция с Telegram Bot API для маршрутизации отчетов в групповые рабочие чаты.
+    * Развертывание автономного запуска скрипта по `cron`-расписанию через GitHub Actions с обработкой серверных ошибок (ожидание при 429/503 статусах).
+    
+    **Стек:** `Python`, `GitHub Actions`, `Google GenAI`, `Telegram API`, `Feedparser`, `Requests`
+
+    <div style="margin-top: 10px;">
+      <a href="projects/DailyDigestsBot/" class="md-button md-button--primary"> 📖 Читать отчет</a>
+    </div>
+
+<br>
 
 !!! success "WoodFlow"
 
@@ -27,7 +61,7 @@
     **Стек:** `Python`, `Flask`, `SQLAlchemy`, `Flask-Login`, `Flask-WTF`, `SQLite`
 
     <div style="margin-top: 10px;">
-      <a href="projects/WoodFlow" class="md-button md-button--primary"> 📖 Читать отчет</a>
+      <a href="projects/WoodFlow/" class="md-button md-button--primary"> 📖 Читать отчет</a>
       <a href="https://github.com/platonpotemkin51-source/WoodFlow" class="md-button"> Репозиторий</a>
 
 <br>

@@ -4,6 +4,8 @@ nav:
   - Об авторе: about.md
   - Проекты:
       - Контроль склада (WoodFlow): projects/Woodflow.md
+      - Телеграм-бот информационный: projects/TGbot.md
+      - Автономная генерация дайджестов: projects/DailyDigestsBot.md
   - Лабораторные работы:
       - Лабораторная 1: labs/lab1.md
       - Лабораторная 2: labs/lab2.md
